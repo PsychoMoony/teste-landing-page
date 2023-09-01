@@ -1,0 +1,16 @@
+/*---Cores---*/
+:root {
+    --cor-fundo: #000000;
+    --cor-fonte-padrao: #ffffff;
+    --cor-paragrafo: #ffffffde;
+    --cor-menu: #808080;
+    --cor-efeito: rgba(0, 0, 0, 0.7);
+    --cor-rodape: #1f1f1f;
+}
+
+
+/*Fontes*/
+:root {
+    --fonte-destaque: 'Vollkorn SC', serif;
+    --fonte-comum: 'Poppins', sans-serif;
+}

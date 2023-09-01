@@ -1,0 +1,15 @@
+/*---Capa---*/
+
+.rodando {
+    animation: rotate 2s ease-in-out 2s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}

@@ -1,0 +1,159 @@
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte-padrao);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0 50px;
+    height: 120px;
+    font-family: var(--fonte-destaque);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.botao-mobile{
+    display: none;
+    color: var(--cor-fonte-padrao);
+    background-color: var(--cor-fundo);
+    border: none;
+    box-shadow: 1px 1px rgba(255, 255, 255, 0.171);
+}
+
+.menu li a {
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+    background-color: var(--cor-menu);
+    border-radius: 5px;
+}
+
+main {
+    margin: 0px 100px;
+    justify-content: space-evenly;
+}
+
+main h1, h2, h3{
+    font-family: var(--fonte-destaque);
+}
+
+main p {
+    font-family: var(--fonte-comum);
+    font-size: 15px;
+    color: var(--cor-paragrafo);
+}
+
+.capa img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+section {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.sessao-icones, .sessao-simples {
+    min-height: 350px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid 1px;
+    padding: 50px;
+    background-image: linear-gradient(var(--cor-efeito), var(--cor-efeito)), url(../imagens/fundo.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    text-align: justify;
+}
+
+.sessao-simples h1 {
+    text-align: center;
+}
+
+.icones ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.icones li {
+    padding: 10px;
+}
+
+.icones li a {
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+
+.icones li a:hover {
+    transform: scale(1.1);
+}
+
+.icones li img {
+    height: 50px;
+    width: 50px;
+}
+
+.icones li h3, p {
+    margin: 10px;
+}
+
+.container {
+    text-align: justify;
+    margin: 10px;
+    flex: 1;
+}
+
+.container img {
+    height: 100%;
+    width: 100%;
+}
+
+.lor-img {
+    margin: 20px 0 25px 0; 
+}
+
+.rodape {
+    flex: 1;
+    text-align: center;
+    background-color: var(--cor-rodape);
+    padding: 20px;
+}
+
+.rodape img {
+    width: 50px;
+    height: 50px;
+}
+
+.identificacao, .observacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
